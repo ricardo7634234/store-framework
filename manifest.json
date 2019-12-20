@@ -1,9 +1,9 @@
 {
   "vendor": "vtex",
   "name": "theme",
-  "version": "0.0.1",
+  "version": "0.2.1",
   "builders": {
-    "styles": "1.x",
+    "styles": "2.x",
     "store": "0.x"
   },
   "scripts": {
