@@ -22,6 +22,7 @@
     }
   },
 
+  
   "product-summary.shelf": {
     "children": [
       "product-summary-add-to-list-button",
