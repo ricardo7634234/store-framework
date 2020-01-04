@@ -66,8 +66,8 @@
   },
   "tab-list.item#home2": {
     "props": {
-      "tabId": "electronics",
-      "label": "Electronics"
+      "tabId": "instagram",
+      "label": "Instagram"
     }
   },
   "tab-content.item#home1": {
@@ -80,13 +80,13 @@
   },
   "tab-content.item#home2": {
     "children": [
-      "rich-text#home2"
+      "iframe"
     ],
     "props": {
-      "tabId": "electronics"
+      "tabId": "instagram"
     }
   },
-  
+
   "rich-text#home1": {
     "props": {
       "text": "# **Nossa História** \n ### **Nascemos de uma hackathon interna da VTEX!** \n Isso mesmo. A primeira Hackatheme (hackathon de temas de loja) da VTEX teve 3 finalistas. Um deles foi a FlatFlat, essa loja que vocês estão acessando agora. A FlatFlat foi criada pelos engenheiros Afonso Praça e Sávio Muniz, pelos designers Lucas Falcão e Augusto Barbosa, e pelo diretor de novos negócios Maurício Baum. Como a loja foi criada por profissionais com os mais diversos backgrounds, o resultado ficou óbvio: foram finalistas com o layout mais legal dentre os participantes.",
@@ -94,11 +94,11 @@
       "textAlignment": "LEFT"
     }
   },
-  "rich-text#home2": {
+  "iframe": {
     "props": {
-      "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-      "textPosition": "CENTER",
-      "font": "t-heading-3"
+      "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
+      "width": 800,
+      "height": 1000
     }
   }
 
