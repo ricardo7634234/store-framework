@@ -19,24 +19,15 @@
     "menu-item#major-appliances":{
         
         "props": {
-            "id": "menu-item-major-appliances",
             "type": "custom",
-            "highlight": false,
+            "highlight": true,
             "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Major Appliances",
-            "text": "Major Appliances"
-            },
-            "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Major Appliances",
+                "text": "Major Appliances"
+            }
         },
         "blocks":[
             "vtex.menu@2.x:submenu#major"
@@ -148,33 +139,21 @@
         "vtex.menu@2.x:submenu#small"
         ],
         "props": {
-            "id": "menu-item-small-appliances",
             "type": "custom",
-            "highlight": false,
+            "highlight": true,
             "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Small Appliances",
-            "text": "Small Appliances"
-            },
-            "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Small Appliances",
+                "text": "Small Appliances"
+            }
         }
     },
     "vtex.menu@2.x:submenu#small":{
         "children":[
         "vtex.menu@2.x:menu#small"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        ]
     },
     "vtex.menu@2.x:menu#small": {
         "children": [
@@ -183,24 +162,8 @@
             "menu-item#coffee"
         ],
         "props": {
-            "id": "menu-item-small-appliances",
             "type": "custom",
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Small Appliances",
-            "text": "Small Appliances"
-            },
-            "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true,
+            "highlight": true,
             "orientation": "vertical"
         }
     },
