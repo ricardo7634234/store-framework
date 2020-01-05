@@ -19,14 +19,7 @@
 
 
 
-    "vtex.menu@2.x:submenu#major":{
-        "children":[
-        "flex-layout.row#major"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
-    },
+
 
       "image#menu": {
         "props": {
