@@ -1,2 +1,15 @@
 {
+  "menu-item#major-appliances":{        
+    "props": {
+         "type": "custom",
+         "highlight": true,
+         "itemProps": {
+             "text": "Major Appliances"
+         }
+     },
+     "blocks":[
+         "vtex.menu@2.x:submenu#major"
+     ]
+ }
+
 }
