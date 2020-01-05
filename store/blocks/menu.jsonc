@@ -263,10 +263,7 @@
     "vtex.menu@2.x:submenu#electronics":{
         "children":[
         "vtex.menu@2.x:menu#electronics"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        ]
     },
     "vtex.menu@2.x:menu#electronics": {
         "children": [
@@ -275,24 +272,6 @@
             "menu-item#tvs"
         ],
         "props": {
-            "id": "menu-item-electronics",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Electronics",
-            "text": "Electronics"
-            },
-            "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true,
             "orientation": "vertical"
         }
     },
