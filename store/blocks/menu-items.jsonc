@@ -24,15 +24,7 @@
          "noFollow": false,
          "tagTitle": "Refrigerators",
          "text": "Refrigerators"
-         },
-         "iconProps": {
-         "id": "bnd-logo",
-         "size": 16,
-         "viewBox": "0 0 16 16",
-         "activeClassName": "rebel-pink",
-         "mutedClassName": "c-action-primary"
-         },
-         "iconToTheRight": true
+         }
      }
  },
  "menu-item#ovens": {
@@ -46,15 +38,7 @@
          "noFollow": false,
          "tagTitle": "Ovens",
          "text": "Ovens"
-         },
-         "iconProps": {
-         "id": "bnd-logo",
-         "size": 16,
-         "viewBox": "0 0 16 16",
-         "activeClassName": "rebel-pink",
-         "mutedClassName": "c-action-primary"
-         },
-         "iconToTheRight": true
+         }
      }
  },
  "menu-item#washers": {
@@ -68,15 +52,7 @@
          "noFollow": false,
          "tagTitle": "Washers",
          "text": "Washers"
-         },
-         "iconProps": {
-         "id": "bnd-logo",
-         "size": 16,
-         "viewBox": "0 0 16 16",
-         "activeClassName": "rebel-pink",
-         "mutedClassName": "c-action-primary"
-         },
-         "iconToTheRight": true
+         }
      }
  },
  
