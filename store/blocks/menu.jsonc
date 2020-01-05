@@ -21,26 +21,6 @@
 
 
 
-      "image#menu": {
-        "props": {
-          "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
-          "link": {
-            "url": "/small-appliances/coffee-makers"
-          },
-          "alt": "Coffee Makers Collection",
-          "maxWidth": "200px"
-        }
-      },
-      "rich-text#header": {
-        "props": {
-          "text": "Free Shipping on orders over $50",
-          "textPosition": "LEFT",
-          "textAlignment": "LEFT"
-        }
-    },
-
-
-
 
 
 
