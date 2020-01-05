@@ -16,16 +16,11 @@
 
 
 
-    "menu-item#major-appliances":{
-        
-        "props": {
+    "menu-item#major-appliances":{        
+       "props": {
             "type": "custom",
             "highlight": true,
             "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Major Appliances",
                 "text": "Major Appliances"
             }
         },
@@ -237,7 +232,7 @@
 
     "menu-item#electronics":{
         "blocks":[
-        "vtex.menu@2.x:submenu#electronics"
+            "vtex.menu@2.x:submenu#electronics"
         ],
         "props": {
             "id": "menu-item-electronics",
