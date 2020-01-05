@@ -17,9 +17,7 @@
 
 
     "menu-item#major-appliances":{
-        "blocks":[
-            "vtex.menu@2.x:submenu#major"
-        ],
+        
         "props": {
             "id": "menu-item-major-appliances",
             "type": "custom",
@@ -39,8 +37,14 @@
             "mutedClassName": "c-action-primary"
             },
             "iconToTheRight": true
-        }
+        },
+        "blocks":[
+            "vtex.menu@2.x:submenu#major"
+        ]
     },
+
+
+
     "vtex.menu@2.x:submenu#major":{
         "children":[
         "vtex.menu@2.x:menu#major"
@@ -56,24 +60,6 @@
             "menu-item#washers"
         ],
         "props": {
-            "id": "menu-item-major-appliances",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "#",
-            "noFollow": false,
-            "tagTitle": "Major Appliances",
-            "text": "Major Appliances"
-            },
-            "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-            },
-            "iconToTheRight": true,
             "orientation": "vertical"
         }
     },
